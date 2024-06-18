@@ -2,6 +2,7 @@ import './App.css';
 import React from "react";
 import { BrowserRouter, Routes } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar';
+import InstantConsultation from './Components/InstantConsultation/InstantConsultation';
 
 function App() {
     return (
