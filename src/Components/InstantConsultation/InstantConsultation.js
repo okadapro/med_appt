@@ -1,16 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './InstantConsultation.css';
 import { useNavigate, useSearchParams } from 'react-router-dom';
- const [searchParams] = useSearchParams();
-   if (searchParams.get('speciality')) {
-             // window.reload()
-             const filtered = data.filter(doctor => doctor.speciality.toLowerCase() === searchParams.get('speciality').toLowerCase());
-
-             setFilteredDoctors(filtered);
-             
-             setIsSearched(true);
-             window.reload()
-         }
 import FindDoctorSearchIC from './FindDoctorSearchIC/FindDoctorSearchIC';
 import DoctorCardIC from './DoctorCardIC/DoctorCardIC';
 
