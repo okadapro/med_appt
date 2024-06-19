@@ -20,10 +20,9 @@ const Navbar = () => {
         sessionStorage.removeItem("name");
         sessionStorage.removeItem("email");
         sessionStorage.removeItem("phone");
-        // remove email phone
         localStorage.removeItem("doctorData");
         setIsLoggedIn(false);
-        // setUsername("");
+        setUsername("");
        
         // Remove the reviewFormData from local storage
         for (let i = 0; i < localStorage.length; i++) {

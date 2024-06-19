@@ -12,6 +12,9 @@ function App() {
             <Navbar/>
                 <Routes>
                 <Route path="/instant-consultation" element={<InstantConsultation />} />
+                <Route path="/login" element={<Login />}/>
+                <Route path="/signup" element={<SignUp />}/>
+                <Route path="/booking-consultation" element={<BookingConsultation />} />
                 </Routes>
           </BrowserRouter>
          
