@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar';
 import InstantConsultation from './Components/InstantConsultation/InstantConsultation';
+import BookingConsultation from './Components/BookingConsultation/BookingConsultation';
 
 function App() {
     return (
